@@ -878,12 +878,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 <script>
 
-$(document).ready(function() {
-    $('.my-select').select2({
-        placeholder: 'Select an option',
-        dropdownAutoWidth: true // Add this line to enable search box
-    });
+
+$('.my-select').select2({
+  minimumResultsForSearch: Infinity
 });
+
 
  
   </script>
