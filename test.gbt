@@ -52,6 +52,9 @@ include("config/db.php")
   max-height: 300px;
   overflow-y: auto;
 }
+.select2-container .select2-selection--single {
+  height: 41px;
+}
 
 
 
@@ -202,7 +205,7 @@ include("config/db.php")
 								</div>
 								<div class="details">
 									<a href="#"><h4>Creative Designer</h4></a>
-									<h6>Los Angeles</h6>
+									<h6>Los Angelesss</h6>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis.
 									</p>
@@ -886,14 +889,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       minimumResultsForSearch: 1
     });
   });
-</script>
-$(document).ready(function() {
-  $('.my-select').select2({
-    dropdownCssClass: "custom-select"
-  });
-});
-            
-            
+
+     
+    </script>        
             
 </body>
 </html>
